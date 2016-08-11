@@ -1,6 +1,6 @@
-# shutdown-wizard
+# Shutdown Wizard
 
-Shutdown or hibernate your machine in a sertain amount of time.
+Shutdown or hibernate your machine in a certain amount of time.
 
 Currently only Windows is supported.
 
@@ -20,16 +20,16 @@ https://github.com/patatjenl/shutdown-wizard.git
 ```
 
 Secondly, create the launcher.
-- Rightclick the file, choose `Create shortcut`
+- Right click the file, choose `Create shortcut`
 
 Optional: If your account isn't an administrator:
-- Rightclick the shortcut, choose `Properties`
+- Right click the shortcut, choose `Properties`
 - Click the `Advanced...` button
 - Check the `Run as administrator` checkbox
 - Click the `Ok` button for both opened screens
 
 Optional: Choose a cool icon
-- Rightclick the shortcut, choose `Properties`
+- Right click the shortcut, choose `Properties`
 - Click the `Change Icon...` button
 - Select the icon of your choice
 - Click the `Ok` button for both opened screens
@@ -37,7 +37,7 @@ Optional: Choose a cool icon
 
 ## Future
 
-- I'd like to support Linux and MacOS aswell. 
+- I'd like to support Linux and MacOS as well.
 - Being able to select more hour options (not just 1-9)
 - Having a shortcut out of the box
 - Make it look good
