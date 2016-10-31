@@ -27,14 +27,14 @@ IF [%shutdownType%] == [2] GOTO doHibernate
 ECHO.
 ECHO Alright, waiting for %hours% hours, the computer will then be shutting down.
 ECHO.
-timeout /t %seconds% /nobreak && shutdown /s
+timeout /t %seconds% /nobreak && shutdown /s /f
 GOTO End
 
 :doHibernate
 ECHO.
 ECHO Alright, waiting for %hours% hours, the computer will then hibernate.
 ECHO.
-timeout /t %seconds% /nobreak && shutdown /h
+timeout /t %seconds% /nobreak && shutdown /h /f
 GOTO End
 
 :End
